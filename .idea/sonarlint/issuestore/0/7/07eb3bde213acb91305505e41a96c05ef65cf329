@@ -1,0 +1,10 @@
+
+[
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(î…Ùíüÿÿÿÿ
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(Ú°ŒŞ8†İêÛë0
+k
+java:S3655-"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(…è‡¨ûÿÿÿÿ
+r
+java:S36552"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(•„ÂÂüÿÿÿÿ8ô†Üë0
+f
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(•í¯±

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WpF Degree : Home</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/icon" href="../img/wpf-favicon.png"/>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/superslides.css">
+    <link href="../css/slick.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/queryLoader.css" type="text/css" />
+    <link type="text/css" media="all" rel="stylesheet" href="../css/jquery.tosrus.all.css" />
+    <link id="switcher" href="../css/themes/default-theme.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/css/jquery.circliful.css'>  
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>   
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>    
+    <script src="handle/menu.js"></script>
+    <script src="handle/link.js"></script>
+    <script src="handle/blog.js"></script>
+    <script src="handle/major.js"></script>
+    <script src="handle/course.js"></script>
+    <script>
+       window.onload = function(){
+            loadMenu();
+            getBlogTopViewIndex();
+            getMajorIndex();
+            checkInterest();
+            courseHomePage();
+        }
+    </script>
+  </head>
+  <body> 
+    <header id="header"></header>
+
+    <!--=========== BEGIN SLIDER SECTION ================-->
+    <section id="slider">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="slider_area">
+            <!-- Start super slider -->
+            <div id="slides">
+              <ul class="slides-container">                          
+                <li>
+                  <img src="img/slider/1.png" alt="img">
+                   <div class="slider_caption">
+                    <h2>HiTeach Learning Online</h2>
+                     <p>We can't stop you worrying about your child. But our expert tutors can help their grades and confidence soar - and help you worry a little less.</p>
+                     <a class="slider_btn" href="course">Explore Course</a>
+                  </div>
+                  </li>
+                <!-- Start single slider-->
+
+                <!-- Start single slider-->
+
+              </ul>
+              <nav class="slides-navigation">
+                <a href="#" class="next"></a>
+                <a href="#" class="prev"></a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========== END SLIDER SECTION ================-->
+
+    <!--=========== BEGIN ABOUT US SECTION ================-->
+    <section id="aboutUs">
+      <div class="container">
+        <div class="row">
+        <!-- Start about us area -->
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="aboutus_area wow fadeInLeft">
+            <h2 class="titile">About Us</h2>
+            <p>Learning one-on-one is effective. From day one, we have held that belief. But we also understood that technology would function more effectively if it were available, inexpensive, and more practical for everyone. So that's what we've created—a simpler approach to link those in need of knowledge with people who can impart it. And in the process, we've altered how people view education.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="newsfeed_area wow fadeInRight">
+            <ul class="nav nav-tabs feed_tabs" id="myTab2">
+              <li class="active"><a href="#news" data-toggle="tab">Major</a></li>
+              <li><a href="#notice" data-toggle="tab">Blog</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <!-- Start news tab content -->
+              <div class="tab-pane fade in active" id="news">  
+                <input onkeyup="getMajorIndex()" id="searchmajor" class="form-control" placeholder="search major">              
+                  <div class="blogindex">
+                    <ul class="news_tab" id="listmajorindex">
+                  
+                    </ul>
+                  </div>                
+              </div>
+              <!-- Start notice tab content -->  
+              <div class="tab-pane fade " id="notice">
+                <div class="single_notice_pane blogindex">
+                  <ul class="news_tab" id="listblogindex">
+                    
+                  </ul> 
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!--=========== END ABOUT US SECTION ================--> 
+
+    <!--=========== BEGIN WHY US SECTION ================-->
+    <section id="whyUs">
+      <!-- Start why us top -->
+      <div class="row">        
+        <div class="col-lg-12 col-sm-12">
+          <div class="whyus_top">
+            <div class="container">
+              <!-- Why us top titile -->
+              <div class="row">
+                <div class="col-lg-12 col-md-12"> 
+                  <div class="title_area">
+                    <h2 class="title_two">Why Us</h2>
+                    <span></span> 
+                  </div>
+                </div>
+              </div>
+              <!-- End Why us top titile -->
+              <!-- Start Why us top content  -->
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="single_whyus_top wow fadeInUp">
+                    <div class="whyus_icon">
+                      <span class="fa fa-desktop"></span>
+                    </div>
+                    <h3>The Right Fit</h3>
+                    <p>Find an instructor who will satisfy your requirements and learning preferences.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="single_whyus_top wow fadeInUp">
+                    <div class="whyus_icon">
+                      <span class="fa fa-users"></span>
+                    </div>
+                    <h3>Best Tutor</h3>
+                    <p>More qualified instructors than anywhere else, ready to help</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="single_whyus_top wow fadeInUp">
+                    <div class="whyus_icon">
+                      <span class="fa fa-credit-card"></span>
+                    </div>
+                    <h3>Protected payments</h3>
+                    <p>Always know what you'll pay upfront. Your payment isn't released until you approve the work.</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="single_whyus_top wow fadeInUp">
+                    <div class="whyus_icon">
+                      <span class="fa fa-support"></span>
+                    </div>
+                    <h3>Support</h3>
+                    <p>Questions? Our 24/7 support staff is here to assist you at any time, anywhere.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Why us top content  -->
+            </div>
+          </div>
+        </div>        
+      </div>
+      <!-- End why us top -->
+      <!-- End why us bottom -->
+    </section>
+    <!--=========== END WHY US SECTION ================-->
+
+    <!--=========== BEGIN OUR COURSES SECTION ================-->
+    <section id="ourCourses">
+      <div class="container">
+       <!-- Our courses titile -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12"> 
+            <div class="title_area">
+              <h2 class="title_two">Our Courses</h2>
+              <span></span> 
+            </div>
+          </div>
+        </div>
+        <!-- End Our courses titile -->
+        <!-- Start Our courses content -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="ourCourse_content">
+              <ul class="course_nav">
+                <div class="row" id="listcoursehome">
+                   <!-- start single course -->
+
+                  <!-- End single course -->
+                  
+                </div>
+                                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Our courses content -->
+      </div>
+    </section>
+    <!--=========== END OUR COURSES SECTION ================-->  
+
+    <!--=========== END OUR TUTORS SECTION ================-->
+
+
+
+    <!--=========== BEGIN STUDENTS TESTIMONIAL SECTION ================-->
+    <section id="studentsTestimonial">
+      <div class="container">
+       <!-- Our courses titile -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12"> 
+            <div class="title_area">
+              <h2 class="title_two">What our Student says</h2>
+              <span></span> 
+            </div>
+          </div>
+        </div>
+        <!-- End Our courses titile -->
+
+        <!-- Start Our courses content -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="studentsTestimonial_content">              
+              <div class="row">
+                <!-- start single student testimonial -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_stsTestimonial wow fadeInUp">
+                    <div class="stsTestimonial_msgbox">
+                      <p>Hiteach is a very good website. I was failing a class I needed to pass to graduate and thanks to Hiteach, I did pass the class and graduated.</p>
+                    </div>
+                    <img class="stsTesti_img" src="img/student 3.jpeg" alt="img">
+                    <div class="stsTestimonial_content">
+                      <h3>Johnathan Nguyen</h3>
+                      <span>Ex. Student</span>
+                      <p>Software Department</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End single student testimonial -->
+                <!-- start single student testimonial -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_stsTestimonial wow fadeInUp">
+                    <div class="stsTestimonial_msgbox">
+                      <p>Access to many great tutors is invaluable! It has been very helpful in aiding me to become a Developer, while I am not there yet, that is my goal.</p>
+                    </div>
+                    <img class="stsTesti_img" src="img/student 1.jpeg" alt="img">
+                    <div class="stsTestimonial_content">
+                      <h3>Jade</h3>
+                      <span>Ex. Student</span>
+                      <p>Developer</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End single student testimonial -->
+                <!-- start single student testimonial -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_stsTestimonial wow fadeInUp">
+                    <div class="stsTestimonial_msgbox">
+                      <p>HiTeach has been incredibly helpful for me. Without it, I probably would not be passing my Statistics course which I need to graduate this year.</p>
+                    </div>
+                    <img class="stsTesti_img" src="img/student 2 .jpg" alt="img">
+                    <div class="stsTestimonial_content">
+                      <h3>Anthony Tran</h3>
+                      <span>Ex. Student</span>
+                      <p>Software Department</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End single student testimonial -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Our courses content -->
+      </div>
+    </section>
+    
+    <footer id="footer"></footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/jquery.animate-enhanced.min.js"></script>
+    <script src="../js/jquery.superslides.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/js/jquery.circliful.min.js'></script>
+    <script type="text/javascript" language="javascript" src="../js/jquery.tosrus.min.all.js"></script>
+    <script src="../js/custom.js"></script>
+
+  </body>
+</html>

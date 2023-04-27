@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HiTeach : Course Manage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <link rel="shortcut icon" type="image/icon" href="../img/wpf-favicon.png"/>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/superslides.css">
+    <link href="../css/slick.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/queryLoader.css" type="text/css" />
+    <link type="text/css" media="all" rel="stylesheet" href="../css/jquery.tosrus.all.css" />
+    <link id="switcher" href="../css/themes/default-theme.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/css/jquery.circliful.css'>  
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>   
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="../handle/menu.js"></script>
+    <script src="../handle/link.js"></script>
+    <script src="../handle/course.js"></script>
+    <script>
+       window.onload = function(){
+            loadMenu();
+            coursedaduyet(0);
+            checkInterest();
+           loadStatistic(2023);
+          }
+    </script>
+    
+  </head>
+  <body> 
+    <header id="header"></header>
+    
+    <!--=========== BEGIN COURSE BANNER SECTION ================-->
+    <!--=========== BEGIN COURSE BANNER SECTION ================-->
+    <section id="courseArchive">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h3 class="name_page">Course Manager</h3>
+                    <div class="mycoursemanager">
+                        <div class="group-tabs">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Approved Course</a></li>
+                                <li onclick="coursechuaduyet(0)" role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Waiting Approve Course</a></li>
+                                <li onclick="coursedaxoa(0)" role="presentation"><a href="#tuchoi" aria-controls="tuchoi" role="tab" data-toggle="tab">Denied Course</a></li>
+                                <li role="presentation"><a href="#statistical" aria-controls="statistical" role="tab" data-toggle="tab">Statistical</a></li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                    <table class="table">
+                                        <thead>
+                                        <tr class="table-course">
+                                            <th >#</th>
+                                            <th>Couse banner</th>
+                                            <th>Couse name</th>
+                                            <th>Couse price</th>
+                                            <th>Couse link</th>
+                                            <th>Max member</th>
+                                            <th>Current member</th>
+                                            <th>Update</th>
+                                            <th>Delete</th>
+                                            <th>View member</th>
+                                            <th>View comment</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody id="listdaduyet">
+                                        <tr>
+                                            <td>#1</td>
+                                            <td><img class="img_mycouser" src="img/course-single.jpg"></td>
+                                            <td>Java basic</td>
+                                            <td>20$</td>
+                                            <td>http://oke.vn</td>
+                                            <td>3</td>
+                                            <td><a class="btn btn-primary"><i class="fa fa-edit"></i> Update</a></td>
+                                            <td><a class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a></td>
+                                            <td><button type="button" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-success"><i class="fa fa-list"></i> View Member</button></td>
+                                        </tr>
+                                    </table>
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination" id="pagedaduyet">
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                    <table class="table">
+                                        <thead>
+                                        <tr class="table-course">
+                                            <th>#</th>
+                                            <th>Couse banner</th>
+                                            <th>Couse name</th>
+                                            <th>Couse price</th>
+                                            <th>Couse link</th>
+                                            <th>Max member</th>
+                                            <th>Update</th>
+                                            <th>Delete</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody id="listchuaduyet">
+                                        <tr>
+                                            <td>#1</td>
+                                            <td><img class="img_mycouser" src="img/course-2.jpg"></td>
+                                            <td>Java core</td>
+                                            <td>40$</td>
+                                            <td>http://oke.vn</td>
+                                            <td>3</td>
+                                            <td><a class="btn btn-primary"><i class="fa fa-edit"></i> Update</a></td>
+                                            <td><a class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a></td>
+                                        </tr>
+                                    </table>
+                                    <nav aria-label="Page navigation example" >
+                                        <ul class="pagination" id="pagechuaduyet">
+                                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="tuchoi">
+                                    <table class="table">
+                                        <thead>
+                                        <tr class="table-course">
+                                            <th>#</th>
+                                            <th>Couse banner</th>
+                                            <th>Couse name</th>
+                                            <th>Couse price</th>
+                                            <th>Max member</th>
+                                            <th>link meet</th>
+                                            <th>reason</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody id="listdaxoa">
+                                        <tr>
+                                            <td>#1</td>
+                                            <td><img class="img_mycouser" src="img/course-2.jpg"></td>
+                                            <td>40$</td>
+                                            <td>http://oke.vn</td>
+                                            <td>3</td>
+                                            <td><a class="btn btn-primary"><i class="fa fa-edit"></i> View reason</a></td>
+                                        </tr>
+                                    </table>
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination" id="pagedaxoa">
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="statistical">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <h2>statistical</h2>
+                                            <label>Choose year</label>
+                                            <select class="form-control" id="chooseyear" onchange="loadnewSta()">
+                                                <option value="2023">2023</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <canvas id="myChart" style="width:100%;max-width:80%"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <h4>List Member</h4>
+                <p class="totalmember">Total: <span id="totalmemebt">24</span> member</p>
+                <label class="notfee checkbox-custom">Waiting confirmation
+                    <input id="checkpaid" type="checkbox" onclick="loadMemberNotPaid()">
+                    <span class="checkmark-checkbox"></span>
+                </label>
+                <input id="idcourse" type="hidden">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>User</th>
+                        <th>request date</th>
+                        <th>Delete</th>
+                        <th>Confirm</th>
+                    </tr>
+                    </thead>
+                    <tbody id="listmember">
+                    <tr>
+                        <td>#1</td>
+                        <td>jonh</td>
+                        <td>2023-12-12</td>
+                        <td><button class="btn btn-danger"><i class="fa fa-trash"></i> Delete</button></td>
+                        <td><button class="btn btn-primary">Confirm</button></td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade bd-example-modal-lgs" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="min-height: 400px">
+                <h4>List Comment</h4>
+                <hr>
+                <div id="listcommentd" style="margin-top: 30px">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=========== END COURSE BANNER SECTION ================-->
+    <footer id="footer"></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/jquery.animate-enhanced.min.js"></script>
+    <script src="../js/jquery.superslides.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/js/jquery.circliful.min.js'></script>
+    <script type="text/javascript" language="javascript" src="../js/jquery.tosrus.min.all.js"></script>
+    <script src="../js/custom.js"></script>
+  </body>
+</html>

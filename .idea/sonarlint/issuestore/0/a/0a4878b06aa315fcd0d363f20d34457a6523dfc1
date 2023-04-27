@@ -1,0 +1,13 @@
+
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(‡Í«¼üÿÿÿÿ
+^
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Ú­Ç†
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(îËá‚ûÿÿÿÿ
+^
+java:S4488#"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ŒìË·
+j
+java:S4488("HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(”‹Ú¯ùÿÿÿÿ8÷†Ùí0
+f
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(İıÀ„

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4664054-6716-432f-9318-0dfc8ac30713" name="Changes" comment="sql">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/handle/course.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/handle/course.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/jsadmin/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/jsadmin/user.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockDockBuild.Settings">
+    <option name="codePath" value="$PROJECT_DIR$" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1676972210" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LzyFTKq0lJ7N3DlMAVSm1vDCk9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/duongkhanhngoc/Desktop/demo-project/HiTeach-master-main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;dd9b5636b86e9b0c3155ec97135767f8&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="K:\HiTeach\src\main\java\com\hiteach\chat" />
+      <recent name="K:\HiTeach\src\main\resources\templates\user" />
+      <recent name="K:\HiTeach\src\main\java\com\hiteach\controller" />
+      <recent name="K:\HiTeach\src\main\java\com\hiteach\rest" />
+      <recent name="K:\HiTeach\src\main\java\com\hiteach\service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/user" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HiTeachApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="HiTeach" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hiteach.HiTeachApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4664054-6716-432f-9318-0dfc8ac30713" name="Changes" comment="" />
+      <created>1676888105615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676888105615</updated>
+      <workItem from="1676888107058" duration="4530000" />
+      <workItem from="1676965897108" duration="3705000" />
+      <workItem from="1676969717223" duration="1239000" />
+      <workItem from="1676971067142" duration="31000" />
+      <workItem from="1676971322083" duration="1095000" />
+      <workItem from="1677031294829" duration="170000" />
+      <workItem from="1677402097273" duration="7391000" />
+      <workItem from="1678027410646" duration="7069000" />
+      <workItem from="1678061258371" duration="3170000" />
+      <workItem from="1678072919714" duration="799000" />
+      <workItem from="1678091372136" duration="1115000" />
+      <workItem from="1678093306866" duration="10066000" />
+      <workItem from="1678153955020" duration="4041000" />
+      <workItem from="1678171170450" duration="5000" />
+      <workItem from="1678180730648" duration="7341000" />
+      <workItem from="1678191125073" duration="16110000" />
+      <workItem from="1678597241549" duration="609000" />
+      <workItem from="1678618624701" duration="833000" />
+      <workItem from="1678629634122" duration="5155000" />
+      <workItem from="1678673402085" duration="5962000" />
+      <workItem from="1678700835782" duration="8398000" />
+      <workItem from="1678714796248" duration="586000" />
+      <workItem from="1678720301487" duration="3829000" />
+      <workItem from="1678751926545" duration="8293000" />
+      <workItem from="1678806908332" duration="4048000" />
+      <workItem from="1678931638193" duration="2969000" />
+      <workItem from="1678960486603" duration="7905000" />
+      <workItem from="1679041060621" duration="21341000" />
+      <workItem from="1679799042478" duration="6988000" />
+      <workItem from="1679813809504" duration="6349000" />
+      <workItem from="1680753789712" duration="887000" />
+      <workItem from="1680755432214" duration="67693000" />
+      <workItem from="1681357908470" duration="102797000" />
+      <workItem from="1681907012298" duration="19000" />
+      <workItem from="1681907333575" duration="69000" />
+      <workItem from="1681907432283" duration="16000" />
+      <workItem from="1681907496167" duration="28000" />
+      <workItem from="1681907556548" duration="101000" />
+      <workItem from="1681907710305" duration="294000" />
+      <workItem from="1681908060100" duration="897000" />
+      <workItem from="1681910258626" duration="2922000" />
+      <workItem from="1681920560907" duration="221000" />
+      <workItem from="1681920789102" duration="9084000" />
+      <workItem from="1681970645598" duration="3664000" />
+      <workItem from="1682013460596" duration="3660000" />
+      <workItem from="1682146413835" duration="14953000" />
+      <workItem from="1682265186133" duration="679000" />
+      <workItem from="1682265879030" duration="169000" />
+      <workItem from="1682266243004" duration="2643000" />
+      <workItem from="1682269194708" duration="554000" />
+      <workItem from="1682269756973" duration="621000" />
+      <workItem from="1682278584278" duration="12657000" />
+      <workItem from="1682439323803" duration="1117000" />
+      <workItem from="1682440454205" duration="8416000" />
+      <workItem from="1682588868649" duration="131000" />
+      <workItem from="1682589089609" duration="16902000" />
+      <workItem from="1682697966175" duration="1248000" />
+    </task>
+    <task id="LOCAL-00001" summary="done">
+      <created>1682425071979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682425071979</updated>
+    </task>
+    <task id="LOCAL-00002" summary="done">
+      <created>1682430379189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682430379189</updated>
+    </task>
+    <task id="LOCAL-00003" summary="done">
+      <created>1682440063628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682440063628</updated>
+    </task>
+    <task id="LOCAL-00004" summary="done">
+      <created>1682440140042</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682440140042</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sql">
+      <created>1682441584191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682441584191</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="2711d4cd-1443-4cd4-b4e7-22cb3b16fe3a">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/duongkhanhngoc/Desktop/demo-project/HiTeach/.idea" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="2711d4cd-1443-4cd4-b4e7-22cb3b16fe3a" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <MESSAGE value="sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql" />
+  </component>
+</project>

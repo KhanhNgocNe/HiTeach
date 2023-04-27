@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "fa30ae11-1561-4218-9bc0-483ef5b4f74b",
+		"name": "hiteach",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18264176"
+	},
+	"item": [
+		{
+			"name": "get token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"ngockt\",\r\n    \"password\":\"Ngoc123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/authenticate",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "regis",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"username\": \"ngockt\",\r\n  \"fullname\": \"khánh ngọc\",\r\n  \"password\":\"Ngoc123\",\r\n  \"phone\":\"097213122\",\r\n  \"email\": \"hantinh311002102000@gmail.com\",\r\n  \"avatar\": null,\r\n  \"authorities\": [\r\n    \"ROLE_USER\"\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "resetpassword",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "hantinh311002102000@gmail.com"
+				},
+				"url": {
+					"raw": "localhost:8080/api/resetpass",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"resetpass"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "change password",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzIiwiaWF0IjoxNjc2OTY3NzU2LCJleHAiOjE2Nzc1NzI1NTYsInJvbGVzIjoiUk9MRV9VU0VSIn0._yU_3UXTbT9LjBqahAXIHKVxz56qjESb_A1veftjy5ApesNYmnOBEgctlhKg1hrJrgQA-6KhGAoJtYdJiQWk2Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/user/changePassword?old=y5R8o8e&new",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"changePassword"
+					],
+					"query": [
+						{
+							"key": "old",
+							"value": "y5R8o8e"
+						},
+						{
+							"key": "new",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

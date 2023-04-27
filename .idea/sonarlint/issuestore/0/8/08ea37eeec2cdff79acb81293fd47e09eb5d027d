@@ -1,0 +1,8 @@
+
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ž–û‚ùÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(ÖÇ¨Ñ8áíöØí0
+Q
+java:S1128"4Remove this unused import 'com.hiteach.entity.User'.(ØÅ‹¼8ãíöØí0
+K
+java:S1128"/Remove this unused import 'java.sql.Timestamp'.(èò½+8ãíöØí0
