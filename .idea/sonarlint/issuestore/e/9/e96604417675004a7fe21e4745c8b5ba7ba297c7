@@ -1,0 +1,28 @@
+
+[	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(…ı–ß
+[	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(­ŞÊ”
+[	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(§‰Ù‘
+[	java:S112n"FDefine and throw a dedicated exception instead of using a generic one.(œ‘Œ
+V
+java:S4684A"@Replace this persistent entity with a simple POJO or DTO object.(­ŞÊ”
+S	java:S106z"9Replace this use of System.out or System.err by a logger.(ü´ò¹ûÿÿÿÿ
+N	java:S106{"9Replace this use of System.out or System.err by a logger.(Ëã¼
+S	java:S106|"9Replace this use of System.out or System.err by a logger.(† Ôåüÿÿÿÿ
+K
+java:S1128"5Remove this unused import 'com.hiteach.entity.Major'.(ñøú‹
+W
+java:S4973E"<Strings and Boxed types should be compared using "equals()".(…‡œòşÿÿÿÿ
+R
+java:S4973q"<Strings and Boxed types should be compared using "equals()".(óûˆÉ
+f
+java:S36557"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¢ÂŠÎ
+f
+java:S3655+"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¢ÂŠÎ
+f
+java:S3655p"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÿ¹çü
+l
+java:S3655±"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(„ ®¢ıÿÿÿÿ
+f
+java:S3655j"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Í‰·™
+e
+java:S3655D"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¬â“d

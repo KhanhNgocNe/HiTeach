@@ -1,0 +1,11 @@
+
+[
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(’¤øÃüÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñåÌ¹8åÙÂ²ë0
+V
+java:S1128"4Remove this unused import 'com.hiteach.entity.Blog'.(ÉÏ™ÿÿÿÿÿ8ù„òßë0
+G
+java:S1128
+"*Remove this unused import 'java.sql.Date'.(ÙÀ½Ê8ƒ…òßë0
+r
+java:S3655'"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ûÒÕÖùÿÿÿÿ8›ÚÂ²ë0

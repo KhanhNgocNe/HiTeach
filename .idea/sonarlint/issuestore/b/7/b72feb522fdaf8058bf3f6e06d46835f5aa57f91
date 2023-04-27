@@ -1,0 +1,21 @@
+
+V
+java:S18549"@Remove this useless assignment to local variable "passwordHash".(Ôö’¥
+G
+java:S14819"1Remove this unused "passwordHash" local variable.(Ôö’¥
+D
+java:S2140L")Use "java.util.Random.nextInt()" instead.(§÷¿öüÿÿÿÿ
+D
+java:S2140W")Use "java.util.Random.nextInt()" instead.(§÷¿öüÿÿÿÿ
+\
+java:S1126^"AReplace this if-then-else statement by a single return statement.(«‚¯´üÿÿÿÿ
+V
+java:S2789>"@Methods with an "Optional" return type should never return null.(¥¹ï
+V
+java:S2789D"@Methods with an "Optional" return type should never return null.(¥¹ï
+k
+java:S3655'"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ô¥êÑÿÿÿÿÿ
+c
+java:S3655 "HCall "user.isPresent()" or "!user.isEmpty()" before accessing the value.(®Éóûùÿÿÿÿ
+k
+java:S3655("PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(˜Ãùõúÿÿÿÿ

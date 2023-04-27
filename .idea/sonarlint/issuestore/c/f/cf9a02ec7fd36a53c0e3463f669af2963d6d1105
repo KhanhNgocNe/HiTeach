@@ -1,0 +1,7 @@
+
+[
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(«µâùÿÿÿÿ
+O
+java:S1128"4Remove this unused import 'com.hiteach.entity.Blog'.(ÉÏ™ÿÿÿÿÿ
+R
+java:S4973+"<Strings and Boxed types should be compared using "equals()".(¯ò¡Ô
