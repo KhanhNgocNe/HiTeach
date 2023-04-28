@@ -106,10 +106,17 @@ async function lockOrUnlock(id, type) {
     if (response.status < 300) {
         var mess = '';
         if(type == 1){
+<<<<<<< HEAD
             mess = 'Lock account successfully'
         }
         else{
             mess = 'Unlock account successfully'
+=======
+            mess = 'Lock account successful'
+        }
+        else{
+            mess = 'Unlock account successful'
+>>>>>>> origin/main
         }
         swal({
             title: "Notification", 
@@ -168,7 +175,11 @@ async function changePassword() {
     if (response.status < 300) {
         swal({
                 title: "Notification",
+<<<<<<< HEAD
                 text: "Update password successfully!",
+=======
+                text: "Update password successful!",
+>>>>>>> origin/main
                 type: "success"
             },
             function(){

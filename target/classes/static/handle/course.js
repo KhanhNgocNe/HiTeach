@@ -123,7 +123,11 @@ async function saveCourse() {
     if(response.status < 300){
         swal({
                 title: "Notification",
+<<<<<<< HEAD
                 text: "Upload Course successfully!",
+=======
+                text: "Upload Course successful!",
+>>>>>>> origin/main
                 type: "success"
             },
             function(){
@@ -357,7 +361,11 @@ async function deleteCourse(id) {
         if (response.status < 300) {
             swal({
                     title: "Notification",
+<<<<<<< HEAD
                     text: "Delete course successfulsuccessly!",
+=======
+                    text: "Delete course successful!",
+>>>>>>> origin/main
                     type: "success"
                 },
                 function () {
@@ -390,7 +398,11 @@ async function confirmCourse(id) {
     if (response.status < 300) {
         swal({
                 title: "Notification",
+<<<<<<< HEAD
                 text: "Confirm pay successfully!",
+=======
+                text: "Confirm pay successful!",
+>>>>>>> origin/main
                 type: "success"
             },
             function(){
@@ -422,7 +434,11 @@ async function deletePaid(id) {
         if (response.status < 300) {
             swal({
                     title: "Notification",
+<<<<<<< HEAD
                     text: "Delete successfully!",
+=======
+                    text: "Delete successful!",
+>>>>>>> origin/main
                     type: "success"
                 },
                 function () {

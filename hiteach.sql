@@ -2,10 +2,17 @@
 -- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
+<<<<<<< HEAD
 -- Máy chủ: localhost
 -- Thời gian đã tạo: Th4 28, 2023 lúc 06:08 PM
 -- Phiên bản máy phục vụ: 10.4.21-MariaDB
 -- Phiên bản PHP: 8.0.19
+=======
+-- Máy chủ: 127.0.0.1
+-- Thời gian đã tạo: Th2 21, 2023 lúc 09:26 AM
+-- Phiên bản máy phục vụ: 10.4.25-MariaDB
+-- Phiên bản PHP: 8.1.10
+>>>>>>> origin/main
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -27,6 +34,11 @@ SET time_zone = "+00:00";
 -- Cấu trúc bảng cho bảng `authority`
 --
 
+<<<<<<< HEAD
+=======
+use `heroku_32135f68b6b1b95`;
+
+>>>>>>> origin/main
 CREATE TABLE `authority` (
   `name` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -48,6 +60,7 @@ INSERT INTO `authority` (`name`) VALUES
 
 CREATE TABLE `blog` (
   `id` bigint(20) NOT NULL,
+<<<<<<< HEAD
   `content` mediumtext DEFAULT NULL,
   `created_date` date DEFAULT NULL,
   `image_banner` varchar(255) DEFAULT NULL,
@@ -67,6 +80,14 @@ INSERT INTO `blog` (`id`, `content`, `created_date`, `image_banner`, `user_id`, 
 (7, '<h3 id=\"1-use-quickline-for-straight-continuous-lines\">1. Use Quickline for Straight, Continuous Lines</h3>\n<figure class=\"kg-card kg-image-card\"><img class=\"kg-image\" src=\"https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/08/Screen-Shot-2022-08-04-at-10.32.26-AM.png\" alt=\"Use quickline in Procreate\" width=\"754\" height=\"1080\" loading=\"lazy\"></figure>\n<p>This tool is so helpful to people who have difficulties drawing straight lines. Simply draw a line, curve or circle and hold your Apple pencil on the screen once you are done. The app will then perfect or &ldquo;stabilize&rdquo; the lines you have drawn.</p>\n<h3 id=\"2-use-layers\">2. Use Layers</h3>\n<figure class=\"kg-card kg-image-card\"><img class=\"kg-image\" src=\"https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/08/Screen-Shot-2022-08-04-at-10.32.50-AM.png\" alt=\"Use layers in Procreate\" width=\"764\" height=\"1070\" loading=\"lazy\"></figure>\n<p>Layers can add a level of professionalism to your art and can help you stay organized by being able to edit certain details later without it impacting every part of your artwork. To add a layer press the &ldquo;+&rdquo; sign right next to the layers panel. You can also access other options for a layer such as delete, lock and duplicate by swiping left on the layer you want to manipulate.</p>\n<h3 id=\"3-use-blend-modes\">3. Use Blend Modes</h3>\n<figure class=\"kg-card kg-image-card\"><img class=\"kg-image\" src=\"https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/08/Screen-Shot-2022-08-04-at-10.33.14-AM.png\" alt=\"Use blend modes\" width=\"754\" height=\"1084\" loading=\"lazy\"></figure>\n<p>There are tools within each layer that you can use so the different shapes, objects, and textures on each layer can interact with each other in different ways. We call these blend modes. In each layer, you can access blend modes by pressing the &ldquo;n&rdquo;. &ldquo;N&rdquo; or normal mode is the default blend mode for all layers. You will then see different blending modes such as darken, lighten, control layer opacity and much more. Clicking on them will show a preview of how the layer will interact under that new mode.</p>\n<h3 id=\"4-take-advantage-of-alpha-lock\">4. Take Advantage of Alpha Lock</h3>\n<figure class=\"kg-card kg-image-card\"><img class=\"kg-image\" src=\"https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/08/Screen-Shot-2022-08-04-at-10.33.33-AM.png\" alt=\"Use Alpha lock\" width=\"774\" height=\"1084\" loading=\"lazy\"></figure>\n<p>This option is helpful when you want to draw shadows, highlights, and patterns without coloring outside the lines already drawn. Once you have drawn on a layer, tap on the image of the layer you would like to add more details to and select &ldquo;alpha lock&rdquo; on the layer. Once &ldquo;locked&rdquo; any details you add will stay within the boundaries of your original image.</p>\n<h3 id=\"5-try-clipping-masks\">5. Try Clipping Masks</h3>\n<figure class=\"kg-card kg-image-card\"><img class=\"kg-image\" src=\"https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/08/Screen-Shot-2022-08-04-at-10.33.53-AM.png\" alt=\"Try clipping masks\" width=\"764\" height=\"1084\" loading=\"lazy\"></figure>\n<p>Clipping masks are like an alpha lock but with some key differences. First off, you will be on a new layer! So you will not be impacting your original layer. Add a new layer on top of the layer you want to work on. Select the new layer by tapping on its image and select &ldquo;clipping mask&rdquo;. This will &ldquo;mask&rdquo; the below image. All new details will be added in the boundaries of the shape below.</p>', '2023-03-22', 'http://res.cloudinary.com/dt2g4oabz/image/upload/v1679468714/jipurmupwyyz8k09bq7w.jpg', NULL, ' Procreate Tips', '15 Procreate Tips and Tricks For Beginners', 22),
 (10, '<article>\n<h2 id=\"why_is_time_management_important_for_students\">Why is Time Management Important for Students?</h2>\n<p>Time management for students (and everyone else) is about making your day purposeful. It is about taking control of the time you have and optimizing it for focus,&nbsp;<a title=\"productivity\" href=\"https://www.simplilearn.com/what-is-productivity-and-how-to-define-and-measure-it-article\" target=\"_blank\" rel=\"noopener\">productivity</a>, and above all, balance. Before we list out the time management tips for students, it is crucial for students to understand why time management is important.</p>\n<p>All of us should make the most of the limited amount of time we have in a day. It is very easy to get wrapped up in a fury of various activities and accomplish less. Managing time effectively enables students to become more confident, and organized, and learn more efficiently.&nbsp;<a title=\"Effective time management skills\" href=\"https://www.simplilearn.com/time-management-skills-article\" target=\"_blank\" rel=\"noopener\">Effective time management skills&nbsp;</a>are particularly essential for high school students, as they have to deal with more subjects, tests, assignments, and extracurriculars. Time management techniques can help students be on track and cope with the stress of added responsibilities.&nbsp;</p>\n<p>Following are a few more reasons why time management is important for students:</p>\n<h3>Enables You to Accomplish Your Goals Faster</h3>\n<p>Appropriate time management makes one more effective and encourages you to give your best to what you are doing and what you can, thus&nbsp;<a title=\"helping you achieve your goals\" href=\"https://www.simplilearn.com/time-management-skills-to-achieve-career-goals-article\" target=\"_blank\" rel=\"noopener\">helping you achieve your goals</a>&nbsp;much faster.</p>\n<h3>Enables You to Prioritize Your Work</h3>\n<p>When creating a timetable, you prioritize and arrange essential tasks that need immediate attention. For example, students have to complete assignments before attending a session. A student can fit in time to work on the assignments before attending a study group with correct time management.</p>\n<h3>Enables You to Get More Done in Less Time</h3>\n<p>Dedicating a specified amount of time to a particular task helps you focus on it. Instead of working on a given task with no predefined time assigned, you can complete the same task by sticking to a time plan. Without a time plan, you might completely forget to finish a task.</p>\n<h3>Reduces Stress Levels&nbsp;</h3>\n<p><a title=\"Time management skills\" href=\"https://www.simplilearn.com/time-management-skills-article\" target=\"_blank\" rel=\"noopener\">Time management skills</a>&nbsp;can help you prioritize the time required for essential tasks; prioritizing tasks and having enough time to accomplish those tasks means reduced stress levels.</p>\n<h3>Helps You Become More Efficient</h3>\n<p>Effective time management helps you to be more focused at school/college/university, thus increasing your efficiency and enabling you to accomplish more within less time.</p>\n<p>So, how can students learn to manage time more effectively? We have collated a list of the best time management tips for students to beat procrastination, stay focused, and be more productive.</p>\n</article>\n<article>\n<h2 id=\"time_management_tips_and_strategies\">Time Management Tips and Strategies</h2>\n<p>Efficient time management is one of the primary keys to success, and thus, it is worth learning. Following are&nbsp;<a title=\"time management strategies\" href=\"https://www.simplilearn.com/effective-time-management-tips-article\" target=\"_blank\" rel=\"noopener\">time management strategies</a>&nbsp;for students to help them manage their time in the best possible manner.</p>\n<h3>Make Use of a Daily Schedule Template to Plan Your Day</h3>\n<p>Seminars, classes, and workshops may take up a chunk of your day, but how one schedules their own time makes all the difference. It is essential to master your schedule. A daily schedule template helps you manage and control your time each day. It will enable you to stay organized and focus on what matters most and even help you overcome procrastination. The method that most successful people from Elon Musk to Bill Gates use is &ldquo;time blocking&rdquo;. Time blocking is creating a template for how you intend to spend every minute of your day. Students should therefore follow this method to manage their time more fruitfully.</p>\n<h3>Understand How You are Currently Spending Your Time (And Where You Are Losing It)</h3>\n<p>Your schedule will offer you an ideal version of your day, but you need to analyze how you spend your time to develop better time management habits. Without understanding how you are spending your time each day, it is impossible to build better time management strategies for students to stay focused.</p>\n<h3>Set Proper Goals to Measure Your Progress</h3>\n<p>Goals are an excellent way to get you motivated to do school work. However, the problem is that goals are just the result, with you not knowing how to achieve them. So, focus on what needs to be done to achieve that goal by focusing on constant progress and developing better habits. For example, if you need to write a 5,000-word essay in a month, set a daily goal of writing 500 words. If you continue this, you can complete your essay in a week.</p>\n<h3>Break Large Projects Into Smaller, Actionable Tasks</h3>\n<p>A part of proper&nbsp;<a title=\"goal-setting\" href=\"https://www.simplilearn.com/smart-goals-examples-article\" target=\"_blank\" rel=\"noopener\">goal-setting</a>&nbsp;is to segregate large goals from smaller daily tasks. Doing this will help you stay focused and stop you from procrastinating. It is easy to procrastinate when a project feels like a huge task. However, taking that first step is all you need to build momentum.</p>\n</article>', '2023-04-28', 'http://res.cloudinary.com/dmhjrwkme/image/upload/v1682676165/fokje02wzpqdj42lejea.jpg', NULL, 'Proven Time Management Tips', 'Proven Time Management Tips and Strategies for Students', 0);
 
+=======
+  `content` varchar(255) DEFAULT NULL,
+  `created_date` date DEFAULT NULL,
+  `image_banner` varchar(255) DEFAULT NULL,
+  `user_id` bigint(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+>>>>>>> origin/main
 -- --------------------------------------------------------
 
 --
@@ -83,6 +104,7 @@ CREATE TABLE `chatting` (
   `sender` bigint(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+<<<<<<< HEAD
 --
 -- Đang đổ dữ liệu cho bảng `chatting`
 --
@@ -104,6 +126,8 @@ INSERT INTO `chatting` (`id`, `content`, `created_date`, `file_name`, `type_file
 (14, 'Thank you, I approve for you right now', '2023-04-27 21:49:31', NULL, 0, 8, 20),
 (15, 'hi', '2023-04-28 01:05:33', NULL, 0, 4, 8);
 
+=======
+>>>>>>> origin/main
 -- --------------------------------------------------------
 
 --
@@ -118,6 +142,7 @@ CREATE TABLE `comment` (
   `user_id` bigint(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+<<<<<<< HEAD
 --
 -- Đang đổ dữ liệu cho bảng `comment`
 --
@@ -130,6 +155,8 @@ INSERT INTO `comment` (`id`, `content`, `created_date`, `course_id`, `user_id`) 
 (31, 'cksks', '2023-04-19', 2, 5),
 (32, 'Good', '2023-04-28', 3, 8);
 
+=======
+>>>>>>> origin/main
 -- --------------------------------------------------------
 
 --
@@ -141,7 +168,11 @@ CREATE TABLE `course` (
   `actived` int(11) DEFAULT NULL,
   `created_date` date DEFAULT NULL,
   `deleted` int(11) DEFAULT NULL,
+<<<<<<< HEAD
   `description` mediumtext DEFAULT NULL,
+=======
+  `description` varchar(255) DEFAULT NULL,
+>>>>>>> origin/main
   `end_date` date DEFAULT NULL,
   `end_time` time DEFAULT NULL,
   `feed_back_by_admin` varchar(255) DEFAULT NULL,
@@ -152,6 +183,7 @@ CREATE TABLE `course` (
   `start_date` date DEFAULT NULL,
   `start_time` time DEFAULT NULL,
   `major_id` bigint(20) DEFAULT NULL,
+<<<<<<< HEAD
   `user_id` bigint(20) DEFAULT NULL,
   `linkmeet` mediumtext DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -170,6 +202,11 @@ INSERT INTO `course` (`id`, `actived`, `created_date`, `deleted`, `description`,
 (24, 0, '2023-04-28', 1, '<div class=\"component-margin\">\n<h2 class=\"ud-heading-xl requirements--title--2wsPe\" data-purpose=\"requirements-title\">Requirements</h2>\n<ul class=\"ud-unstyled-list ud-block-list\">\n<li>\n<div class=\"ud-block-list-item ud-block-list-item-small ud-block-list-item-tight ud-block-list-item-neutral ud-text-sm\">\n<div class=\"ud-block-list-item-content\">Just some high school mathematics level.</div>\n</div>\n</li>\n</ul>\n</div>\n<div class=\"ud-text-sm component-margin styles--description--33-vq\" data-purpose=\"course-description\">\n<h2 class=\"ud-heading-xl styles--description__header--2Z7Vb\" data-purpose=\"description-title\">Description</h2>\n<div class=\"show-more-module--container--2QPRN\">\n<div class=\"show-more-module--content--cjTh0 show-more-module--with-gradient--1ZDrA\">\n<div tabindex=\"0\">\n<div data-purpose=\"safely-set-inner-html:description:description\">\n<p>Interested in the field of Machine Learning?&nbsp;Then this course is for you!</p>\n<p>This course has been designed by a&nbsp;<strong>Data Scientist and a Machine Learning expert</strong>&nbsp;so that we can share our knowledge and help you learn complex theory,&nbsp;algorithms, and coding libraries in a simple way.</p>\n<p><strong>Over 900,000 students</strong>&nbsp;world-wide trust this course.</p>\n<p>We will walk you step-by-step into the World of Machine Learning. With every tutorial, you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.</p>\n<p>This course can be completed by either doing either the&nbsp;<strong>Python tutorials, or R tutorials,</strong>&nbsp;or both -&nbsp;Python &amp;&nbsp;R. Pick the programming language that you need for your career.</p>\n<p>This course is&nbsp;fun and exciting, and at the same time, we dive deep into Machine Learning. It is structured the following way:</p>\n<ul>\n<li>\n<p>Part 1 - Data Preprocessing</p>\n</li>\n<li>\n<p>Part 2 - Regression: Simple Linear Regression, Multiple Linear Regression,&nbsp;Polynomial&nbsp;Regression,&nbsp;SVR, Decision Tree Regression,&nbsp;Random Forest Regression</p>\n</li>\n<li>\n<p>Part 3 - Classification: Logistic Regression, K-NN, SVM, Kernel SVM, Naive Bayes, Decision Tree Classification,&nbsp;Random&nbsp;Forest Classification</p>\n</li>\n<li>\n<p>Part 4 - Clustering: K-Means,&nbsp;Hierarchical Clustering</p>\n</li>\n<li>\n<p>Part 5 - Association Rule Learning: Apriori,&nbsp;Eclat</p>\n</li>\n<li>\n<p>Part 6 - Reinforcement Learning:&nbsp;Upper Confidence Bound,&nbsp;Thompson Sampling</p>\n</li>\n<li>\n<p>Part 7 - Natural Language Processing: Bag-of-words model&nbsp;and&nbsp;algorithms for NLP</p>\n</li>\n<li>\n<p>Part 8 - Deep Learning: Artificial Neural Networks,&nbsp;Convolutional Neural Networks</p>\n</li>\n<li>\n<p>Part 9 - Dimensionality Reduction: PCA, LDA, Kernel PCA</p>\n</li>\n<li>\n<p>Part 10 - Model Selection &amp; Boosting: k-fold Cross Validation, Parameter Tuning, Grid Search,&nbsp;XGBoost</p>\n</li>\n</ul>\n<p>Each section inside each part is independent. So you can either take the whole course from start to finish or you can jump right into any specific section and&nbsp;<strong>learn what you need for your career right now</strong>.</p>\n<p>Moreover, the course is packed with practical exercises that are based on&nbsp;<strong>real-life&nbsp;case studies</strong>. So not only will you learn the theory, but you will also get lots of&nbsp;<strong>hands-on practice</strong>&nbsp;building your own models.</p>\n<p>And as a bonus, this course&nbsp;<strong>includes both&nbsp;Python and R&nbsp;code templates&nbsp;</strong>which you can download and use on your own projects.</p>\n</div>\n<div class=\"styles--audience--2xuzW\" data-purpose=\"target-audience\">\n<h2 class=\"ud-heading-xl styles--audience__title--1qhlO\">Who this course is for:</h2>\n<ul class=\"styles--audience__list--16EaN\">\n<li>Anyone interested in Machine Learning.</li>\n<li>Students who have at least high school knowledge in math and who want to start learning Machine Learning.</li>\n<li>Any intermediate level people who know the basics of machine learning, including the classical algorithms like linear regression or logistic regression, but who want to learn more about it and explore all the different fields of Machine Learning.</li>\n<li>Any people who are not that comfortable with coding but who are interested in Machine Learning and want to apply it easily on datasets.</li>\n<li>Any students in college who want to start a career in Data Science.</li>\n<li>Any data analysts who want to level up in Machine Learning.</li>\n<li>Any people who are not satisfied with their job and who want to become a Data Scientist.</li>\n<li>Any people who want to create added value to their business by using powerful Machine Learning tools.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>', '2023-04-21', '12:00:00', 'This course is the same orther teacher', 'http://res.cloudinary.com/dmhjrwkme/image/upload/v1682619461/j76wn92xyum1ct3rspwo.jpg', 1, 'Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023]', 3, '2023-04-14', '10:30:00', 5, 15, 'https://meet.google.com/agf-ndyt-ijz'),
 (25, 1, '2023-04-28', 0, '<div class=\"component-margin\">\n<h2 class=\"ud-heading-xl requirements--title--2wsPe\" data-purpose=\"requirements-title\">Requirements</h2>\n<ul class=\"ud-unstyled-list ud-block-list\">\n<li>\n<div class=\"ud-block-list-item ud-block-list-item-small ud-block-list-item-tight ud-block-list-item-neutral ud-text-sm\">\n<div class=\"ud-block-list-item-content\">Just some high school mathematics level.</div>\n</div>\n</li>\n</ul>\n</div>\n<div class=\"ud-text-sm component-margin styles--description--33-vq\" data-purpose=\"course-description\">\n<h2 class=\"ud-heading-xl styles--description__header--2Z7Vb\" data-purpose=\"description-title\">Description</h2>\n<div class=\"show-more-module--container--2QPRN\">\n<div class=\"show-more-module--content--cjTh0 show-more-module--with-gradient--1ZDrA\">\n<div tabindex=\"0\">\n<div data-purpose=\"safely-set-inner-html:description:description\">\n<p>Interested in the field of Machine Learning?&nbsp;Then this course is for you!</p>\n<p>This course has been designed by a&nbsp;<strong>Data Scientist and a Machine Learning expert</strong>&nbsp;so that we can share our knowledge and help you learn complex theory,&nbsp;algorithms, and coding libraries in a simple way.</p>\n<p><strong>Over 900,000 students</strong>&nbsp;world-wide trust this course.</p>\n<p>We will walk you step-by-step into the World of Machine Learning. With every tutorial, you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.</p>\n<p>This course can be completed by either doing either the&nbsp;<strong>Python tutorials, or R tutorials,</strong>&nbsp;or both -&nbsp;Python &amp;&nbsp;R. Pick the programming language that you need for your career.</p>\n<p>This course is&nbsp;fun and exciting, and at the same time, we dive deep into Machine Learning. It is structured the following way:</p>\n<ul>\n<li>\n<p>Part 1 - Data Preprocessing</p>\n</li>\n<li>\n<p>Part 2 - Regression: Simple Linear Regression, Multiple Linear Regression,&nbsp;Polynomial&nbsp;Regression,&nbsp;SVR, Decision Tree Regression,&nbsp;Random Forest Regression</p>\n</li>\n<li>\n<p>Part 3 - Classification: Logistic Regression, K-NN, SVM, Kernel SVM, Naive Bayes, Decision Tree Classification,&nbsp;Random&nbsp;Forest Classification</p>\n</li>\n<li>\n<p>Part 4 - Clustering: K-Means,&nbsp;Hierarchical Clustering</p>\n</li>\n<li>\n<p>Part 5 - Association Rule Learning: Apriori,&nbsp;Eclat</p>\n</li>\n<li>\n<p>Part 6 - Reinforcement Learning:&nbsp;Upper Confidence Bound,&nbsp;Thompson Sampling</p>\n</li>\n<li>\n<p>Part 7 - Natural Language Processing: Bag-of-words model&nbsp;and&nbsp;algorithms for NLP</p>\n</li>\n<li>\n<p>Part 8 - Deep Learning: Artificial Neural Networks,&nbsp;Convolutional Neural Networks</p>\n</li>\n<li>\n<p>Part 9 - Dimensionality Reduction: PCA, LDA, Kernel PCA</p>\n</li>\n<li>\n<p>Part 10 - Model Selection &amp; Boosting: k-fold Cross Validation, Parameter Tuning, Grid Search,&nbsp;XGBoost</p>\n</li>\n</ul>\n<p>Each section inside each part is independent. So you can either take the whole course from start to finish or you can jump right into any specific section and&nbsp;<strong>learn what you need for your career right now</strong>.</p>\n<p>Moreover, the course is packed with practical exercises that are based on&nbsp;<strong>real-life&nbsp;case studies</strong>. So not only will you learn the theory, but you will also get lots of&nbsp;<strong>hands-on practice</strong>&nbsp;building your own models.</p>\n<p>And as a bonus, this course&nbsp;<strong>includes both&nbsp;Python and R&nbsp;code templates&nbsp;</strong>which you can download and use on your own projects.</p>\n</div>\n<div class=\"styles--audience--2xuzW\" data-purpose=\"target-audience\">\n<h2 class=\"ud-heading-xl styles--audience__title--1qhlO\">Who this course is for:</h2>\n<ul class=\"styles--audience__list--16EaN\">\n<li>Anyone interested in Machine Learning.</li>\n<li>Students who have at least high school knowledge in math and who want to start learning Machine Learning.</li>\n<li>Any intermediate level people who know the basics of machine learning, including the classical algorithms like linear regression or logistic regression, but who want to learn more about it and explore all the different fields of Machine Learning.</li>\n<li>Any people who are not that comfortable with coding but who are interested in Machine Learning and want to apply it easily on datasets.</li>\n<li>Any students in college who want to start a career in Data Science.</li>\n<li>Any data analysts who want to level up in Machine Learning.</li>\n<li>Any people who are not satisfied with their job and who want to become a Data Scientist.</li>\n<li>Any people who want to create added value to their business by using powerful Machine Learning tools.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>', '2023-04-21', '12:00:00', NULL, 'http://res.cloudinary.com/dmhjrwkme/image/upload/v1682620637/dk23ha54xm2y6mzcvfkx.jpg', 1, 'Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023]', 1, '2023-04-19', '10:20:00', 5, 4, 'https://meet.google.com/agf-ndyt-ijz');
 
+=======
+  `user_id` bigint(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+>>>>>>> origin/main
 -- --------------------------------------------------------
 
 --
@@ -178,7 +215,11 @@ INSERT INTO `course` (`id`, `actived`, `created_date`, `deleted`, `description`,
 
 CREATE TABLE `course_detail` (
   `id` bigint(20) NOT NULL,
+<<<<<<< HEAD
   `content` mediumtext DEFAULT NULL,
+=======
+  `content` varchar(255) DEFAULT NULL,
+>>>>>>> origin/main
   `created_date` datetime DEFAULT NULL,
   `image_banner` varchar(255) DEFAULT NULL,
   `link_video` varchar(255) DEFAULT NULL,
@@ -210,6 +251,7 @@ CREATE TABLE `major` (
   `name` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+<<<<<<< HEAD
 --
 -- Đang đổ dữ liệu cho bảng `major`
 --
@@ -225,6 +267,8 @@ INSERT INTO `major` (`id`, `imagebanner`, `description`, `name`) VALUES
 (9, 'http://res.cloudinary.com/dt2g4oabz/image/upload/v1679459401/yystj1hc6k05vgq0pjvw.jpg', NULL, 'Soft Skills'),
 (10, 'http://res.cloudinary.com/dmhjrwkme/image/upload/v1682630582/yrwivuf0gzyif8t3qzpt.png', NULL, 'Construction Industry');
 
+=======
+>>>>>>> origin/main
 -- --------------------------------------------------------
 
 --
@@ -237,6 +281,7 @@ CREATE TABLE `major_interest` (
   `user_id` bigint(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+<<<<<<< HEAD
 --
 -- Đang đổ dữ liệu cho bảng `major_interest`
 --
@@ -263,6 +308,8 @@ INSERT INTO `major_interest` (`id`, `major_id`, `user_id`) VALUES
 (174, 8, 20),
 (175, 9, 20);
 
+=======
+>>>>>>> origin/main
 -- --------------------------------------------------------
 
 --
@@ -274,6 +321,7 @@ CREATE TABLE `subcriabled_course` (
   `created_date` datetime DEFAULT NULL,
   `paid` int(11) DEFAULT NULL,
   `course_id` bigint(20) DEFAULT NULL,
+<<<<<<< HEAD
   `user_id` bigint(20) DEFAULT NULL,
   `price` double DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -290,6 +338,11 @@ INSERT INTO `subcriabled_course` (`id`, `created_date`, `paid`, `course_id`, `us
 (16, '2023-04-28 00:14:56', 1, 3, 8, 99),
 (17, '2023-04-28 17:10:05', 0, 9, 5, 20);
 
+=======
+  `user_id` bigint(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+>>>>>>> origin/main
 -- --------------------------------------------------------
 
 --
@@ -310,14 +363,19 @@ CREATE TABLE `user` (
   `password` varchar(255) DEFAULT NULL,
   `phone` varchar(255) DEFAULT NULL,
   `remember_key` varchar(255) DEFAULT NULL,
+<<<<<<< HEAD
   `username` varchar(255) DEFAULT NULL,
   `description` mediumtext DEFAULT NULL
+=======
+  `username` varchar(255) DEFAULT NULL
+>>>>>>> origin/main
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Đang đổ dữ liệu cho bảng `user`
 --
 
+<<<<<<< HEAD
 INSERT INTO `user` (`id`, `account_holder`, `activation_key`, `actived`, `avatar`, `bank_account_number`, `bank_name`, `created_date`, `email`, `fullname`, `password`, `phone`, `remember_key`, `username`, `description`) VALUES
 (1, NULL, NULL, 1, NULL, NULL, NULL, '2023-02-20 18:28:05', 'admin@gmail.com', NULL, '$2a$10$iht6mCEQGHHBHtGnLGQKru8YF0yuyHOO5FQKc3.gQs0Lz9PDbU67S', NULL, NULL, 'admin', NULL),
 (3, NULL, 'keXyEXPoLt', 0, NULL, NULL, NULL, '2023-02-21 15:18:12', 'hantinh311002102000@gmail.com', 'khánh ngọc', '$2a$10$qIfc5.LjIjuz/Ob3aazLnulorqlvQufK61pXbf8pCw34FUDqW7ld6', '097213122', NULL, 'ngockt', NULL),
@@ -331,6 +389,11 @@ INSERT INTO `user` (`id`, `account_holder`, `activation_key`, `actived`, `avatar
 (18, NULL, 'Wp3BOWHu03', 1, 'http://res.cloudinary.com/dmhjrwkme/image/upload/v1682590742/sdy5kdnahjcy27eyttqj.webp', NULL, NULL, '2023-04-27 17:13:04', 'pagepresetlightroomfree@gmail.com', 'Keelin', '$2a$10$Bo.oVWhEDN2f9uYrLfZOaeMeSH2RFBHb2YyXlmyhaNxJcLhG4pk2G', '0779814377', NULL, 'keelin', '<p>My passion for teaching and learning mathematics took my career abroad to pursue my PhD in Mathematics Education in the United Kingdom four years ago. During the past four years, I employed 3D technology on primary school teachers in the United Kingdom to help them teach mathematics to their students. Also, I learned the English National Curriculum from key stages 1 to 4 and early years. Currently, I am the associate head of mathematics at Northeastern University-London. Here, I employ an innovative pedagogical teaching style to help American students from across the pond to learn about topics in Calculus for Business, Differential Equations and Linear Algebra. Also, I combined both the English National Curriculum and Common Core in the United States to give students a flavour of the two countries\' learning styles. <br><br>My eight-year experience tutoring U.S admission examinations (SAT, ACT, GRE, GMAT) and teaching in the United States prepared me to become an elite IVY league tutor. My goal is to help students achieve their goals as future academic students. On my side time, I conduct outreach to lower-income schools providing students with the opportunity to play, engage, and design with 3D technology tools such as 3D printing pens, 3D modelling software, and 3D printers. Lastly, I am passionate about ice skating, travelling and trying out new restaurants. <br><br>I warmly thank you for taking the time to read my biography. If you choose to work with me, I look forward to showing you how to become an excellent test-taker and lower your anxiety towards the examination.</p>'),
 (19, NULL, 'Em47yf4ZQi', 1, 'http://res.cloudinary.com/dmhjrwkme/image/upload/v1682590527/b4tebckfn3sicuusxnmn.jpg', NULL, NULL, '2023-04-27 17:15:28', 'huevubosslightroom@gmail.com', 'Louisa', '$2a$10$FV9N4A5.PogkHEIvlCOzduIoAFT3Z4dv08/VBlndqzPCPvolodtO.', '0779814377', NULL, 'louisa', NULL),
 (20, NULL, '9GOjz2fDp4', 1, 'http://res.cloudinary.com/dmhjrwkme/image/upload/v1682593020/yd7ttfg5pvczdpqrmdd8.jpg', NULL, NULL, '2023-04-27 17:57:00', 'vscocamkn6@gmail.com', 'Dominic', '$2a$10$WMBPhRk0WKt9Wm.06nN8eeLtgnIb59J8Gb8dw.SzbjlffohxBrQ/O', '0779814377', NULL, 'dominic', '<p>Dominic is a solutions architect, consultant and software developer that has a particular interest in all things related to Big Data, Cloud &amp; API. He\'s also a many-times best seller instructor on Udemy for his courses in&nbsp;<strong>AWS</strong>&nbsp;and&nbsp;<strong>Apache Kafka</strong>.</p>\n<p><strong>[See FAQ&nbsp;below to see in which order you can take my courses]</strong></p>\n<p>St&eacute;phane is recognized as an&nbsp;<strong>AWS Hero</strong>&nbsp;and is an&nbsp;<strong>AWS Certified Solutions Architect Professional &amp; AWS Certified DevOps Professional</strong>. He loves to teach people how to use the AWS&nbsp;properly, to get them ready for their&nbsp;<strong>AWS&nbsp;certifications</strong>, and most importantly for the real world.</p>\n<p>He also loves&nbsp;<strong>Apache Kafka</strong>.&nbsp;He sits on the 2019 Program Committee organizing the Kafka Summit in New York, London and San Francisco.&nbsp;He is also an active member of the Apache Kafka community, authoring blogs on Medium and a guest blog for Confluent. &nbsp;</p>\n<p>During his spare time&nbsp;he enjoys cooking, practicing yoga, surfing,&nbsp;watching TV shows, and traveling&nbsp;to awesome destinations!</p>\n<p>&nbsp;</p>\n<p><strong>FAQ:&nbsp;In which order should you&nbsp;learn?...</strong></p>\n<p><strong>AWS&nbsp;Cloud:</strong>&nbsp;Start with AWS&nbsp;Certified Solutions Architect Associate, then move on to AWS&nbsp;Certified Developer Associate and then AWS&nbsp;Certified SysOps Administrator.&nbsp;Afterwards you can either do AWS Certified Solutions Architect Professional or AWS&nbsp;Certified DevOps Professional, or a specialty certification of your choosing.</p>\n<p>&nbsp;</p>\n<p><strong>Apache Kafka:</strong>&nbsp;Start with Apache Kafka for Beginners, then you can learn Connect, Streams and Schema Registry if you\'re a developer, and Setup and Monitoring courses if you\'re an admin. Both tracks are needed to pass the Confluent Kafka certification.</p>');
+=======
+INSERT INTO `user` (`id`, `account_holder`, `activation_key`, `actived`, `avatar`, `bank_account_number`, `bank_name`, `created_date`, `email`, `fullname`, `password`, `phone`, `remember_key`, `username`) VALUES
+(1, NULL, NULL, 1, NULL, NULL, NULL, '2023-02-20 18:28:05', 'admin@gmail.com', NULL, '$2a$10$iht6mCEQGHHBHtGnLGQKru8YF0yuyHOO5FQKc3.gQs0Lz9PDbU67S', NULL, NULL, 'admin'),
+(3, NULL, 'keXyEXPoLt', 1, NULL, NULL, NULL, '2023-02-21 15:18:12', 'hantinh311002102000@gmail.com', 'khánh ngọc', '$2a$10$qIfc5.LjIjuz/Ob3aazLnulorqlvQufK61pXbf8pCw34FUDqW7ld6', '097213122', NULL, 'ngockt');
+>>>>>>> origin/main
 
 -- --------------------------------------------------------
 
@@ -349,6 +412,7 @@ CREATE TABLE `user_authority` (
 
 INSERT INTO `user_authority` (`user_id`, `authority_name`) VALUES
 (1, 'ROLE_ADMIN'),
+<<<<<<< HEAD
 (3, 'ROLE_USER'),
 (4, 'ROLE_TEACHER'),
 (5, 'ROLE_USER'),
@@ -360,6 +424,9 @@ INSERT INTO `user_authority` (`user_id`, `authority_name`) VALUES
 (18, 'ROLE_TEACHER'),
 (19, 'ROLE_USER'),
 (20, 'ROLE_TEACHER');
+=======
+(3, 'ROLE_USER');
+>>>>>>> origin/main
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -460,25 +527,41 @@ ALTER TABLE `user_authority`
 -- AUTO_INCREMENT cho bảng `blog`
 --
 ALTER TABLE `blog`
+<<<<<<< HEAD
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+=======
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+>>>>>>> origin/main
 
 --
 -- AUTO_INCREMENT cho bảng `chatting`
 --
 ALTER TABLE `chatting`
+<<<<<<< HEAD
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+=======
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+>>>>>>> origin/main
 
 --
 -- AUTO_INCREMENT cho bảng `comment`
 --
 ALTER TABLE `comment`
+<<<<<<< HEAD
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+=======
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+>>>>>>> origin/main
 
 --
 -- AUTO_INCREMENT cho bảng `course`
 --
 ALTER TABLE `course`
+<<<<<<< HEAD
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+=======
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+>>>>>>> origin/main
 
 --
 -- AUTO_INCREMENT cho bảng `course_detail`
@@ -496,25 +579,41 @@ ALTER TABLE `history`
 -- AUTO_INCREMENT cho bảng `major`
 --
 ALTER TABLE `major`
+<<<<<<< HEAD
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+=======
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+>>>>>>> origin/main
 
 --
 -- AUTO_INCREMENT cho bảng `major_interest`
 --
 ALTER TABLE `major_interest`
+<<<<<<< HEAD
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=176;
+=======
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+>>>>>>> origin/main
 
 --
 -- AUTO_INCREMENT cho bảng `subcriabled_course`
 --
 ALTER TABLE `subcriabled_course`
+<<<<<<< HEAD
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+=======
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+>>>>>>> origin/main
 
 --
 -- AUTO_INCREMENT cho bảng `user`
 --
 ALTER TABLE `user`
+<<<<<<< HEAD
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+=======
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+>>>>>>> origin/main
 
 --
 -- Các ràng buộc cho các bảng đã đổ

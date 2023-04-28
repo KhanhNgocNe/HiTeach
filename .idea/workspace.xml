@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f4664054-6716-432f-9318-0dfc8ac30713" name="Changes" comment="sql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/handle/course.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/handle/course.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/jsadmin/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/jsadmin/user.js" afterDir="false" />
     </list>
+=======
+    <list default="true" id="f4664054-6716-432f-9318-0dfc8ac30713" name="Changes" comment="sql" />
+>>>>>>> origin/main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +76,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -95,6 +100,31 @@
     &quot;spring.configuration.checksum&quot;: &quot;dd9b5636b86e9b0c3155ec97135767f8&quot;
   }
 }</component>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/duongkhanhngoc/Desktop/demo-project/HiTeach-master-main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "spring.configuration.checksum": "dd9b5636b86e9b0c3155ec97135767f8"
+  }
+}]]></component>
+>>>>>>> origin/main
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="K:\HiTeach\src\main\java\com\hiteach\chat" />
@@ -183,8 +213,12 @@
       <workItem from="1682439323803" duration="1117000" />
       <workItem from="1682440454205" duration="8416000" />
       <workItem from="1682588868649" duration="131000" />
+<<<<<<< HEAD
       <workItem from="1682589089609" duration="16902000" />
       <workItem from="1682697966175" duration="1248000" />
+=======
+      <workItem from="1682589089609" duration="16117000" />
+>>>>>>> origin/main
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1682425071979</created>
